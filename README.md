@@ -41,17 +41,23 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
 * Tell me about the last major Linux project you finished.
 * Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
-* Why we must choose you?
 * What function does DNS play on a network?
 * What is HTTP?
 * What is an HTTP proxy and how does it work?
 * Describe briefly how HTTPS works.
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
-* What is a level 0 backup? What is an incremental backup?
+* What is a full backup? What is an incremental backup?
 * Describe the general file system hierarchy of a Linux system.
 * Which difference have between public and private SSH key?
-
+* Who do you think is the greatest programmer ever and why?
+* When Micro$oft stopped fight Linux and start cooperate?
+* Which versions of WSL you know and had used?
+* What is the sign (R) and what is Copyleft?
+* What RFC stands for?
+* Do you have github account? if yes, what kind of projects you created?
+* Which operating system most popular now?
+* What is IANA stands for? What are assigned numbers used for?
 
 #### [[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
@@ -87,6 +93,10 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * Walk me through the steps in booting into single user mode to troubleshoot a problem.
 * Walk me through the steps you'd take to troubleshoot a 404 error on a web application you administer.
 * What is ICMP protocol? Why do you need to use?
+* What is man section? How many manual sections are there?
+* How can you get the man section description?
+* Which keys on a keyboard most used in a terminal session?
+* What is the difference between commands set and env?
 
 #### [[⬆]](#toc) <a name='medium'>Medium Linux Questions:</a>
 
@@ -115,7 +125,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What is swap and what is it used for?
 * What is an A record, an NS record, a PTR record, a CNAME record, an MX record?
 * Are there any other RRs and what are they used for?
-* What is a Split-Horizon DNS?
+* What is a Split DNS?
 * What is the sticky bit?
 * What does the immutable bit do to a file?
 * What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
@@ -159,6 +169,9 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How can you list the contents of a package?
 * How can you determine which package is better: openssh-server-5.3p1-118.1.el6_8.x86_64 or openssh-server-6.6p1-1.el6.x86_64 ?
 * Can you explain to me the difference between block based, and object based storage?
+* There is a system call unlink. Why it's named this way?
+* bash command processor at first devides command string on tokens. What it does next?
+* How many bash EXPANSIONs do you know? 
 
 #### [[⬆]](#toc) <a name='hard'>Hard Linux Questions:</a>
 
@@ -192,7 +205,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * How do you change TCP stack buffers? How do you calculate it?
 * What is Huge Tables? Why isn't it enabled by default? Why and when use it?
 * What is LUKS? How to use it?
-
 
 #### [[⬆]](#toc) <a name='network'>Networking Questions:</a>
 
@@ -233,12 +245,12 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 #### [[⬆]](#toc) <a name='devop'>DevOps Questions:</a>
 
 * Can you describe your workflow when you create a script?
-* What is GIT?
+* What is git?
 * What is a dynamically/statically linked file?
 * What does "./configure && make && make install" do?
 * What is puppet/chef/ansible used for?
-* What is Nagios/Zenoss/NewRelic used for?
-* What is Jenkins/TeamCity/GoCI used for?
+* What is Nagios/Zenoss/NewRelic/Grafana suite used for?
+* What is Jenkins/TeamCity/GoCI/Gitlab used for?
 * What is the difference between Containers and VMs?
 * How do you create a new postgres user?
 * What is a virtual IP address? What is a cluster?
@@ -250,6 +262,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 * What's the relationship between continuous delivery and DevOps?
 * What are the important aspects of a system of continuous integration and deployment?
 * How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
+* What is the main difference between docker compose versions 1 and 2?
 
 #### [[⬆]](#toc) <a name='fun'>Fun Questions:</a>
 
@@ -287,3 +300,4 @@ Some questions are 'borrowed' from other great references like:
 * https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
 * http://slideshare.net/kavyasri790693/linux-admin-interview-questions
+* https://www.interviewbit.com/linux-interview-questions/
