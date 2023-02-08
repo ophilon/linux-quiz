@@ -100,24 +100,24 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 #### [[⬆]](#toc) <a name='medium'>2. Medium Linux Questions:</a>
 
-1. What do the following commands do and how would you use them?
- * ```tee```
- * ```awk```
- * ```tr```
- * ```cut```
- * ```tac```
- * ```curl```
- * ```wget```
- * ```watch```
- * ```head```
- * ```tail```
- * ```less```
- * ```cat```
- * ```touch```
- * ```sar```
- * ```netstat```
- * ```tcpdump```
- * ```lsof```
+1. What do the following commands do and how would you use them:
+1. ```tee```
+1. ```awk```
+1. ```tr```
+1. ```cut```
+1. ```tac```
+1. ```curl```
+1. ```wget```
+1. ```watch```
+1. ```head```
+1. ```tail```
+1. ```less```
+1. ```cat```
+1. ```touch```
+1. ```sar```
+1. ```netstat```
+1. ```tcpdump```
+1. ```lsof```
 1. What does an ```&``` after a command do?
 1. What does ```& disown``` after a command do?
 1. What is a packet filter and how does it work?
@@ -154,9 +154,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What is the difference between a process and a thread? And parent and child processes after a fork system call?
 1. What is the difference between exec and fork?
 1. What is "nohup" used for?
-1. What is the difference between these two commands?
- * ```myvar=hello```
- * ```export myvar=hello```
+1. What is the difference between these two commands: ```myvar=hello``` and ```export myvar=hello```
 1. How many NTP servers would you configure in your local ntp.conf?
 1. What does the column 'reach' mean in ```ntpq -p``` output?
 1. You need to upgrade kernel at 100-1000 servers, how you would do this?
