@@ -6,7 +6,6 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [Contributors](#contributors)
   1. [General Questions](#general)
   1. [Simple Linux Questions](#simple)
   1. [Medium Linux Questions](#medium)
@@ -17,35 +16,21 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
   1. [DevOps Questions](#devop)
   1. [Fun Questions](#fun)
   1. [Demo Time](#demo)
+  1. [Contributors](#contributors)
   1. [Other Great References](#references)
 
-
-#### [[⬆]](#toc) <a name='contributors'>Contributors:</a>
-
-* [moregeek](https://github.com/moregeek)
-* [typhonius](https://github.com/typhonius)
-* [schumar](https://github.com/schumar)
-* [negesti](https://github.com/negesti)
-* peter
-* [andreashappe](https://github.com/andreashappe)
-* [quatrix](https://github.com/quatrix)
-* [biyanisuraj](https://github.com/biyanisuraj)
-* [pedroguima](https://github.com/pedroguima)
-* Ben
-* [bharatnc](https://github.com/bharatnc)
-
-
-#### [[⬆]](#toc) <a name='general'>0. General Questions:</a>
+#### [[⬆]](#toc) <a name='general'>0. General Questions</a>
 
 1. What did you learn yesterday/this week?
 1. Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
-1. Tell me about the last major Linux project you finished.
+1. Tell me about the last major public or open source project you finished.
 1. Tell me about the biggest mistake you've made in [some recent time period] and how you would do it differently today. What did you learn from this experience?
 1. What function does DNS play on a network?
 1. What is HTTP?
 1. What is an HTTP proxy and how does it work?
 1. Describe briefly how HTTPS works.
 1. What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP.
+1. Give some examples of MTA.
 1. What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 1. What is a full backup? What is an incremental backup?
 1. Describe the general file system hierarchy of a Linux system.
@@ -58,8 +43,9 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. Do you have github account? if yes, what kind of projects you created?
 1. Which operating system most popular now?
 1. What is IANA stands for? What are assigned numbers used for?
+1. Why we must choose you?
 
-#### [[⬆]](#toc) <a name='simple'>1. Simple Linux Questions:</a>
+#### [[⬆]](#toc) <a name='simple'>1. Simple Linux Questions: 10 points weight</a>
 
 1. What is the name and the UID of the administrator user?
 1. How to list all files, including hidden ones, in a directory?
@@ -98,7 +84,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. Which keys on a keyboard most used in a terminal session?
 1. What is the difference between commands set and env?
 
-#### [[⬆]](#toc) <a name='medium'>2. Medium Linux Questions:</a>
+#### [[⬆]](#toc) <a name='medium'>2. Medium Linux Questions: 20 points weight</a>
 
 1. What do the following commands do and how would you use them:
 1. ```tee```
@@ -119,7 +105,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. ```tcpdump```
 1. ```lsof```
 1. What does an ```&``` after a command do?
-1. What does ```& disown``` after a command do?
+1. What does ```nohup ... &``` before a command do?
 1. What is a packet filter and how does it work?
 1. What is Virtual Memory?
 1. What is swap and what is it used for?
@@ -129,6 +115,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What is the sticky bit?
 1. What does the immutable bit do to a file?
 1. What is the difference between hardlinks and symlinks? What happens when you remove the source to a symlink/hardlink?
+1. You just created an empty folder, the ```ls -l``` command shows it's size 2. What does the size of folder mean?
 1. What is an inode and what fields are stored in an inode?
 1. How to force/trigger a file system check on next reboot?
 1. What is SNMP and what is it used for?
@@ -154,7 +141,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What is the difference between a process and a thread? And parent and child processes after a fork system call?
 1. What is the difference between exec and fork?
 1. What is "nohup" used for?
-1. What is the difference between these two commands: ```myvar=hello``` and ```export myvar=hello```
+1. What is the difference between these two commands: ```myvar=hello``` and ```myvar=hello```
 1. How many NTP servers would you configure in your local ntp.conf?
 1. What does the column 'reach' mean in ```ntpq -p``` output?
 1. You need to upgrade kernel at 100-1000 servers, how you would do this?
@@ -171,7 +158,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. bash command processor at first devides command string on tokens. What it does next?
 1. How many bash EXPANSIONs do you know? 
 
-#### [[⬆]](#toc) <a name='hard'>3. Hard Linux Questions:</a>
+#### [[⬆]](#toc) <a name='hard'>3. Hard Linux Questions: 10 points weight</a>
 
 1. What is a tunnel and how you can bypass a http proxy?
 1. What is the difference between IDS and IPS?
@@ -196,15 +183,16 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. How can you increase or decrease the priority of a process in Linux?
 
 
-#### [[⬆]](#toc) <a name='expert'>4. Expert Linux Questions:</a>
+#### [[⬆]](#toc) <a name='expert'>4. Expert Linux Questions: 50 points weight</a>
 
 1. A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
 1. What do you control with swapiness?
 1. How do you change TCP stack buffers? How do you calculate it?
 1. What is Huge Tables? Why isn't it enabled by default? Why and when use it?
 1. What is LUKS? How to use it?
+1. Can you tell about main difference and similarities of Linux and FreeBSD?
 
-#### [[⬆]](#toc) <a name='network'>5. Networking Questions:</a>
+#### [[⬆]](#toc) <a name='network'>5. Networking Questions: 20 points weight</a>
 
 1. What is localhost and why would ```ping localhost``` fail?
 1. What is the similarity between "ping" & "traceroute" ? How is traceroute able to find the hops.
@@ -229,7 +217,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 
 
 
-#### [[⬆]](#toc) <a name='mysql'>6. MySQL questions:</a>
+#### [[⬆]](#toc) <a name='mysql'>6. MySQL questions: 20 points weight</a>
 
 1. How do you create a user?
 1. How do you provide privileges to a user?
@@ -240,7 +228,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. How do you check which jobs are running?
 1. How would you take a backup of a MySQL database?
 
-#### [[⬆]](#toc) <a name='devop'>7. DevOps Questions:</a>
+#### [[⬆]](#toc) <a name='devop'>7. DevOps Questions: 20 points weight</a>
 
 1. Can you describe your workflow when you create a script?
 1. What is git?
@@ -248,7 +236,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What does "./configure && make && make install" do?
 1. What is puppet/chef/ansible used for?
 1. What is Nagios/Zenoss/NewRelic/Grafana suite used for?
-1. What is Jenkins/TeamCity/GoCI/Gitlab used for?
+1. What is Jenkins/TeamCity/GoCI/Gitlab/Github_actions used for?
 1. What is the difference between Containers and VMs?
 1. How do you create a new postgres user?
 1. What is a virtual IP address? What is a cluster?
@@ -260,11 +248,11 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What's the relationship between continuous delivery and DevOps?
 1. What are the important aspects of a system of continuous integration and deployment?
 1. How would you enable network file sharing within AWS that would allow EC2 instances in multiple availability zones to share data?
-1. What is the main difference between docker compose versions 1 and 2?
+1. What is the main difference between ```docker compose``` versions 1 and 2?
 
-#### [[⬆]](#toc) <a name='fun'>8. Fun Questions:</a>
+#### [[⬆]](#toc) <a name='fun'>8. Fun Questions: 20 points weight</a>
 
-1. A careless sysadmin executes the following command: ```chmod 444 /bin/chmod ``` - what do you do to fix this?
+1. A careless sysadmin executes the following command: ```chmod 444 /bin/chmod``` - what do you do to fix this?
 1. I've lost my root password, what can I do?
 1. I've rebooted a remote server but after 10 minutes I'm still not able to ssh into it, what can be wrong?
 1. If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
@@ -275,7 +263,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. How to reboot server when reboot command is not responding?
 
 
-#### [[⬆]](#toc) <a name='demo'>9. Demo Time:</a>
+#### [[⬆]](#toc) <a name='demo'>9. Demo Time: 20 points weight</a>
 
 1. Unpack test.tar.gz without man pages or google.
 1. Remove all "*.pyc" files from testdir recursively?
@@ -290,6 +278,19 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. Write a script to list all the differences between two directories.
 1. In a log file with contents as ```<TIME> : [MESSAGE] : [ERROR_NO] - Human readable text``` display summary/count of specific error numbers that occurred every hour or a specific hour.
 
+#### [[⬆]](#toc) <a name='contributors'>Contributors:</a>
+
+* [moregeek](https://github.com/moregeek)
+* [typhonius](https://github.com/typhonius)
+* [schumar](https://github.com/schumar)
+* [negesti](https://github.com/negesti)
+* peter
+* [andreashappe](https://github.com/andreashappe)
+* [quatrix](https://github.com/quatrix)
+* [biyanisuraj](https://github.com/biyanisuraj)
+* [pedroguima](https://github.com/pedroguima)
+* Ben
+* [bharatnc](https://github.com/bharatnc)
 
 #### [[⬆]](#toc) <a name='references'>Other Great References:</a>
 
@@ -297,5 +298,4 @@ Some questions are 'borrowed' from other great references like:
 
 * https://github.com/darcyclarke/Front-end-Developer-Interview-Questions
 * https://github.com/kylejohnson/linux-sysadmin-interview-questions/blob/master/test.md
-* http://slideshare.net/kavyasri790693/linux-admin-interview-questions
 * https://www.interviewbit.com/linux-interview-questions/
