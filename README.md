@@ -19,7 +19,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
   1. [Contributors](#contributors)
   1. [Other Great References](#references)
 
-#### [[⬆]](#toc) <a name='general'>0. General Questions</a>
+#### [[⬆]](#toc) <a name='general'>0. General Questions: 10 points weight</a>
 
 1. What did you learn yesterday/this week?
 1. Talk about your preferred development/administration environment. (OS, Editor, Browsers, Tools etc.)
