@@ -158,7 +158,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. bash command processor at first devides command string on tokens. What it does next?
 1. How many bash EXPANSIONs do you know? 
 
-#### [[⬆]](#toc) <a name='hard'>3. Hard Linux Questions: 10 points weight</a>
+#### [[⬆]](#toc) <a name='hard'>3. Hard Linux Questions: 30 points weight</a>
 
 1. What is a tunnel and how you can bypass a http proxy?
 1. What is the difference between IDS and IPS?
@@ -183,7 +183,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. How can you increase or decrease the priority of a process in Linux?
 
 
-#### [[⬆]](#toc) <a name='expert'>4. Expert Linux Questions: 50 points weight</a>
+#### [[⬆]](#toc) <a name='expert'>4. Expert Linux Questions: 40 points weight</a>
 
 1. A running process gets ```EAGAIN: Resource temporarily unavailable``` on reading a socket. How can you close this bad socket/file descriptor without killing the process?
 1. What do you control with swapiness?
