@@ -141,7 +141,7 @@ A collection of linux sysadmin/devops interview questions. Feel free to contribu
 1. What is the difference between a process and a thread? And parent and child processes after a fork system call?
 1. What is the difference between exec and fork?
 1. What is "nohup" used for?
-1. What is the difference between these two commands: ```myvar=hello``` and ```myvar=hello```
+1. What is the difference between these two commands: ```myvar=hello``` and ```export myvar=hello```
 1. How many NTP servers would you configure in your local ntp.conf?
 1. What does the column 'reach' mean in ```ntpq -p``` output?
 1. You need to upgrade kernel at 100-1000 servers, how you would do this?
